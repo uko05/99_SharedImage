@@ -17,7 +17,7 @@ export const starrailChars = [
   { icon: "syu5.png",       path: "yuetu",    element: "kaminari" },
   { icon: "sei5.png",       path: "yuetu",    element: "kaminari" },
   { icon: "ginro2.png",     path: "yuetu",    element: "kyosuu"   },
-  { icon: "jin2.png",       path: null,       element: null       },
+  { icon: "jin2.png",       path: "kyomu",    element: "hi"       },
   { icon: "sutera.png",     path: null,       element: null       },
   { icon: "sinazu.png",     path: "junsyu",   element: "kaminari" },
   { icon: "hiei.png",       path: "yuetu",    element: "butsuri"  },
