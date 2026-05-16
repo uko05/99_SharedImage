@@ -1,0 +1,23 @@
+[
+  { "name": "潯",       "filename": "潯.png",       "zokusei": "hikari" },
+  { "name": "ちぃちゃん",  "filename": "ちぃちゃん.png",  "zokusei": "hikari"     },
+  { "name": "エドガー",   "filename": "エドガー.png",   "zokusei": "hikari" },
+  { "name": "異能者",     "filename": "異能者.png",     "zokusei": "hikari"  },
+  
+  { "name": "白蔵",      "filename": "白蔵.png",      "zokusei": "ju"  },
+  { "name": "早霧",      "filename": "早霧.png",      "zokusei": "ju"     },
+  { "name": "翳",       "filename": "翳.png",       "zokusei": "ju"      },
+  
+  { "name": "ナナリ",     "filename": "ナナリ.png",     "zokusei": "rei"     },
+  { "name": "九原",      "filename": "九原.png",      "zokusei": "rei"     },
+  { "name": "ミント",     "filename": "ミント.png",     "zokusei": "rei"    },
+  
+  { "name": "ファルディーヤ", "filename": "ファルディーヤ.png", "zokusei": "tamasii"     },
+  { "name": "ハソール",   "filename": "ハソール.png",   "zokusei": "tamasii"     },
+  { "name": "海月",      "filename": "海月.png",      "zokusei": "tamasii"      },
+  
+  { "name": "ダフォディール", "filename": "ダフォディール.png", "zokusei": "sou"  },
+  { "name": "ハニア",     "filename": "ハニア.png",     "zokusei": "sou"      },
+  
+  { "name": "アドレー",   "filename": "アドレー.png",   "zokusei": "yami"    }
+]
