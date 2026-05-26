@@ -10,6 +10,7 @@
 // ===== キャラクターデータ =====
 export const genshinChars = [
 
+  { name: "サンドローネ",   icon: "kairai.png",           element: "koori"    },
   { name: "プルーネ",       icon: "puruune.png",          element: "kaze"     },
   { name: "リンネア",       icon: "linnea.png",           element: "iwa"      },
   { name: "ローエン",       icon: "rooen.png",            element: "koori"    },
