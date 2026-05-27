@@ -17,7 +17,6 @@ export const genshinChars = [
   { name: "イルーガ",       icon: "iruga.png",            element: "iwa"      },
   { name: "茲白",           icon: "shihaku.png",          element: "iwa"      },
   { name: "コロンビーナ",   icon: "shojo.png",            element: "mizu"     },
-  { name: "傀儡",           icon: "kairai.png",           element: null       },
   { name: "ヤフォダ",       icon: "yafoda.png",           element: "kaze"     },
   { name: "ニコ",           icon: "niko.png",             element: "hi"       },
   { name: "アリス",         icon: "arisu.png",            element: "hi"       },
