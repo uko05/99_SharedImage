@@ -14,6 +14,7 @@
 // ===== キャラクターデータ =====
 export const starrailChars = [
 
+  { icon: "aben2.png",      path: "yuetu",    element: "ryoushi"  },
   { icon: "robin2.png",     path: "kioku",    element: "kaze"     },
   { icon: "Gilgamesh.png",  path: "kaimetsu", element: "kaminari" },
   { icon: "rin.png",        path: "tie",      element: "ryoushi"  },
