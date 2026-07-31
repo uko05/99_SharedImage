@@ -10,7 +10,7 @@
 // ===== キャラクターデータ =====
 export const genshinChars = [
 
-  { name: "ダニカ",           icon: "ダニカ.png",           element: null       },
+  { name: "ダニカ",           icon: "ダニカ.png",           element: "kaminari" },
   { name: "ノイ",             icon: "ノイ.png",             element: null       },
   { name: "ミティヤ",         icon: "ミティヤ.png",         element: null       },
   { name: "バレリー",         icon: "バレリー.png",         element: null       },
