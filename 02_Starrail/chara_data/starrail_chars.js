@@ -14,7 +14,7 @@
 // ===== キャラクターデータ =====
 export const starrailChars = [
 
-  { icon: "parl.png",       path: "yuetu",    element: "koori"  },
+  { icon: "parl.png",       path: "yuetu",    element: "koori"    },
   { icon: "aben2.png",      path: "yuetu",    element: "ryoushi"  },
   { icon: "robin2.png",     path: "kioku",    element: "kaze"     },
   { icon: "Gilgamesh.png",  path: "kaimetsu", element: "kaminari" },
@@ -118,6 +118,7 @@ export const starrailChars = [
 
 // ===== バージョン画像データ (StarRailCheck用) =====
 export const starrailVersions = [
+  "4_5.png",
   "4_4.png",
   "4_3.png",
   "4_2.png",
