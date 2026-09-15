@@ -50,7 +50,7 @@ export const genshinChars = [
   { name: "コロンビーナ",     icon: "shojo.png",            element: "mizu",     nation: "NodKrai" },
   { name: "ヤフォダ",         icon: "yafoda.png",           element: "kaze",     nation: "NodKrai" },
   { name: "ニコ",             icon: "niko.png",             element: "hi",       nation: null },
-  { name: "アリス",           icon: "arisu.png",            element: "hi",       nation: null },
+  { name: "アリス",           icon: "arisu.png",            element: "hi",       nation: "Mondstadt" },
   { name: "ファルカ",         icon: "faruka.png",           element: "kaze",     nation: "Mondstadt" },
   { name: "ドゥリン",         icon: "dorin.png",            element: "hi",       nation: "Mondstadt" },
   { name: "ネフェル",         icon: "neferu.png",           element: "kusa",     nation: "NodKrai" },
