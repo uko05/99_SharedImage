@@ -160,7 +160,7 @@ export const genshinChars = [
   { name: "アーロイ",         icon: "aroi.png",             element: "koori",    nation: null },
   { name: "パイモン",         icon: "paimon.png",           element: null,       nation: null },
   { name: "ホタル",           icon: "hotaru.png",           element: null,       nation: null },
-  { name: "ソラ",             icon: "sora.png",             element: null,       nation: null },w
+  { name: "ソラ",             icon: "sora.png",             element: null,       nation: null },
 
 ];
 
