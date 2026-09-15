@@ -32,7 +32,6 @@ export const genshinChars = [
   { name: "ダインスレイヴ",   icon: "ダインスレイヴ.png",   element: null,       nation: null },
   { name: "アハウ",           icon: "アハウ.png",           element: null,       nation: "Natlan" },
   { name: "ピンばあや",       icon: "ピンばあや.png",           element: null,       nation: "Liyue" },
-  { name: "パイモン",         icon: "paimon.png",           element: null,       nation: null },
   { name: "ダニカ",           icon: "ダニカ.png",           element: "kaminari", nation: "Snezhnaya" },
   { name: "ノイ",             icon: "ノイ.png",             element: null,       nation: "Snezhnaya" },
   { name: "ミティヤ",         icon: "ミティヤ.png",         element: "kaminari", nation: "Snezhnaya" },
