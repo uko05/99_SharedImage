@@ -1,0 +1,43 @@
+# mainブランチにpushしたファイルを、jsdelivr(cdn.jsdelivr.net)のキャッシュから
+# 自動でパージする。他サイトからjsdelivr経由でimportされているgenshin_chars.js等は、
+# pushしてもjsdelivrのキャッシュが古いままだと最大で数時間〜反映されない問題があった
+# ため、push直後に強制的に最新化する。
+name: Purge jsdelivr cache
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (need history to diff changed files)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Purge changed files from jsdelivr
+        env:
+          REPO: ${{ github.repository }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -e
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+            RANGE="${AFTER}~1..${AFTER}"
+          else
+            RANGE="${BEFORE}..${AFTER}"
+          fi
+          FILES=$(git diff --name-only "$RANGE" || true)
+          if [ -z "$FILES" ]; then
+            echo "No changed files detected, nothing to purge."
+            exit 0
+          fi
+          echo "$FILES" | while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            encoded=$(python3 -c "import sys,urllib.parse; print('/'.join(urllib.parse.quote(p) for p in sys.argv[1].split('/')))" "$file")
+            url="https://purge.jsdelivr.net/gh/${REPO}@main/${encoded}"
+            echo "Purging: $file"
+            curl -s -o /dev/null -w "  -> HTTP %{http_code}\n" "$url" || echo "  -> curl failed (ignored)"
+          done
