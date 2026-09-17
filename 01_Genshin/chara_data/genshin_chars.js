@@ -166,6 +166,7 @@ export const genshinChars = [
 
 // ===== バージョン画像データ (GenshinCheck用) =====
 export const genshinVersions = [
+  "7_1.png",
   "7_0.png",
   "luna8.png",
   "luna7.png",
