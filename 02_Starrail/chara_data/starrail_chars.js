@@ -119,6 +119,7 @@ export const starrailChars = [
 
 // ===== バージョン画像データ (StarRailCheck用) =====
 export const starrailVersions = [
+  "4_6.png",
   "4_5.png",
   "4_4.png",
   "4_3.png",
